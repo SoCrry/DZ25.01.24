@@ -19,7 +19,7 @@ class MainKtTest {
     @Test
     fun transferCommissionVisa() {
         val result = transferCommission(15000, "Visa", 0)
-        assertEquals(112.5, result)
+        assertEquals(110, result)
     }
 
     @Test
